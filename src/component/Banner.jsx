@@ -18,7 +18,8 @@ export default function Banner() {
         </div>
         <Findform />
       </div>
-        <a href="#">
+        <a href="#" className="scroll-down">
+          <p>SCROLL DOWN</p>
           <i className="fa-solid fa-angles-down"></i>
         </a>
     </section>

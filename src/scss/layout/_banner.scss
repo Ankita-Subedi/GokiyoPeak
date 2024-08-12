@@ -38,11 +38,17 @@
       }
     }
 
-    a .fa-solid {
+    .scroll-down{
       position: absolute;
-      font-size: 44px;
-      color: black;
+      color: white;
       bottom: 100px;
-      right: 764px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: 400;
+      text-align: center;
+
+      i{
+        font-size: 44px;
+      }
   }
 }
