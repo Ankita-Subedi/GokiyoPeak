@@ -1,0 +1,48 @@
+.banner {
+    height: 75vh;
+    background-image: url('../../../src/assets/images/banner-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .container{
+          display: flex;
+
+      .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        margin-top: 38px;
+  
+        h1{
+          color: white;
+          font-family: $heading-font;
+  
+          span{
+              color: $primary-color;
+          }
+        }
+
+        .btn{
+          position: relative;
+        }
+  
+        .paragh{
+          color: white;
+          font-size: 16px;
+        }
+      }
+    }
+
+    a .fa-solid {
+      position: absolute;
+      font-size: 44px;
+      color: black;
+      bottom: 100px;
+      right: 764px;
+  }
+}

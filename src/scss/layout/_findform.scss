@@ -1,0 +1,56 @@
+.banner-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    padding: 30px;
+    background-color: #0234678d;
+    border-radius: 8px;
+    h3 {
+      font-family: $heading-font;
+      font-size: 38px;
+      color: white;
+      margin-bottom: 20px;
+    }
+    .select-wrapper {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 15px;
+      color: #747474;
+
+      i {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+      }
+      select {
+        // padding-left: 30px;
+        // width: 100%;
+        width: 400px;
+        padding: 12px 8px 12px 30px;
+        font-size: 16px;
+        color: #747474;
+        border-radius: 5px;
+      }
+    }
+    button{
+    padding: 12px 167px;
+    border-radius: 5px;
+    border: none;
+    background-color: $primary-color;
+    color: white;
+    font-size: 15px;
+  }
+
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+}
