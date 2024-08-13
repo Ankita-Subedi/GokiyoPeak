@@ -1,0 +1,10 @@
+.whyus{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    .heading span{
+        color: $primary-color;
+    }
+}

@@ -1,6 +1,10 @@
 .aboutus{
     display: flex;
 
+    .aboutus-picture img{
+        height: 100%;
+    }
+
     .aboutus-content{
         margin: 54px 100px 50px 100px;
         display: flex;
