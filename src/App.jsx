@@ -5,6 +5,7 @@ import Experience from "./component/Experience";
 import Navbar from "./component/Navbar";
 import CarouselComp from "./component/CarouselComp";
 import WhyUs from "./component/WhyUs";
+import Featured from "./component/Featured";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Experience/>
       <CarouselComp/>
       <WhyUs/>
+      <Featured/>
     </>
   );
 }

@@ -4,9 +4,19 @@
   padding: 20px;
 
   .whycomp-item {
-      flex: 1;
       margin: 0 10px;
       text-align: center; 
       padding: 20px;
+
+      img{
+        margin-bottom: 12px;
+      }
+
+      h4{
+        font-family: $general-font;
+        color: #5A5454;
+        font-size: 18px;
+        margin-bottom: 12px;
+      }
   }
 }

@@ -22,7 +22,7 @@ const responsive = {
 };
 export default function Adventure({ images }) {
   return (
-      <Carousel responsive={responsive} infinite={true} className="card">
+      <Carousel responsive={responsive} className="card">
         {images.map((item, index) => (
           <div key={index} className="carousel-item">
             <img

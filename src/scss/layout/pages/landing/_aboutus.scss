@@ -1,0 +1,28 @@
+.aboutus {
+  display: flex;
+
+  .aboutus-picture {
+    flex-shrink: 0;
+    flex-grow: 1;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .aboutus-content {
+    margin: 54px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    span {
+      color: $primary-color;
+    }
+
+    .btn {
+      margin-top: 28px;
+    }
+  }
+}

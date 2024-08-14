@@ -1,0 +1,30 @@
+.featured {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: $secondary-color;
+    position: relative;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 226px;
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 70%;
+        .heading {
+          color: white;
+        }
+  
+        .paragraph {
+          color: white;
+        }
+      }
+    }
+    .btn{
+        background-color: white;
+        color: black;
+    }
+  }
