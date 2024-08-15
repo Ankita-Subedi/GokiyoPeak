@@ -24,6 +24,7 @@ ul {
 .heading {
   font-family: $heading-font;
   font-size: 48px;
+  font-weight: 400;
 }
 
 .paragraph {
@@ -43,5 +44,13 @@ ul {
   outline: none;
 }
 
-
-
+.pic-text {
+  font-family: $heading-font;
+  font-weight: 400;
+  color: white;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  top: 0;
+}
