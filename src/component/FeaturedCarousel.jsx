@@ -1,10 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import feature1 from "../assets/images/feature1.png";
+// import feature1 from "../assets/images/feature1.png";
 import feature2 from "../assets/images/feature2.png";
 import feature3 from "../assets/images/feature3.png";
 import feature4 from "../assets/images/feature4.png";
-import feature5 from "../assets/images/feature5.png";
+// import feature5 from "../assets/images/feature5.png";
 
 const responsive = {
   superLargeDesktop: {
@@ -27,12 +27,46 @@ const responsive = {
 };
 
 const FeaturedCarousel = () => {
-    const featuredImg = [feature3, feature2, feature3, feature4, feature3];
+    // const featuredImg = [feature3, feature2, feature3, feature4, feature3, feature3, feature3];
+    const featuredContent = [
+      {
+        img: feature3,
+        text: "Tashi lapcha pass trek"
+      },
+      {
+        img: feature2,
+        text: "Tashi lapcha pass trek"
+      },
+      {
+        img: feature3,
+        text: "Tashi lapcha pass trek"
+      },
+      {
+        img: feature4,
+        text: "Tashi lapcha pass trek"
+      },
+      {
+        img: feature3,
+        text: "Tashi lapcha pass trek"
+      },
+      {
+        img: feature3,
+        text: "Tashi lapcha pass trek"
+      },
+      {
+        img: feature3,
+        text: "Tashi lapcha pass trek"
+      },
+
+    ]
   return (
     <Carousel responsive={responsive} className="featured-card">
-      {featuredImg.map((image, index)=>(
+      {featuredContent.map((item, index)=>(
         <div key={index} className="carousel-item">
-              <img src={image} alt="image" className="carousel-img"/>
+              <img src={item.img} alt="image" className="carousel-img"/>
+              <h3 className="pic-text">
+                   {item.text}
+              </h3>
         </div>
       ))}
     </Carousel>
