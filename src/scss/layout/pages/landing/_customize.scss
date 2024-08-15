@@ -1,0 +1,30 @@
+.customize {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: $secondary-color;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 70%;
+        .heading {
+          color: white;
+        }
+  
+        .paragraph {
+          color: white;
+        }
+      }
+      .explore-btn{
+        .btn{
+               background-color: white;
+               color: black;
+        }
+      }
+    }
+  }

@@ -27,7 +27,6 @@ const responsive = {
 };
 
 const FeaturedCarousel = () => {
-    // const featuredImg = [feature3, feature2, feature3, feature4, feature3, feature3, feature3];
     const featuredContent = [
       {
         img: feature3,

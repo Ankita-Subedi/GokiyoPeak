@@ -6,6 +6,9 @@ import Navbar from "./component/Navbar";
 import CarouselComp from "./component/CarouselComp";
 import WhyUs from "./component/WhyUs";
 import Featured from "./component/Featured";
+import Country from "./component/Country";
+import Customize from "./component/Customize";
+import Everest from "./component/Everest";
 function App() {
   return (
     <>
@@ -16,6 +19,9 @@ function App() {
       <CarouselComp/>
       <WhyUs/>
       <Featured/>
+      <Country/>
+      <Customize/>
+      <Everest/>
     </>
   );
 }
