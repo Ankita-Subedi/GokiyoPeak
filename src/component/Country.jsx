@@ -5,9 +5,10 @@ import country4 from "../assets/images/country4.png"
 
 const Country = () => {
   return (
-    <div className="container">
+<>
+<div className="country container spacing">
       <div className="discover-top">
-      <h2 className="heading">Discover Other Countries</h2>
+      <h2 className="heading">Discover Other <span>Countries</span></h2>
       <a href="#" className="btn">
         Explore More
       </a>
@@ -39,6 +40,7 @@ const Country = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

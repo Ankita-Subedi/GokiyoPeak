@@ -1,30 +1,43 @@
-.discover-top {
-  margin-top: 14%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+.country{
 
-.discover-bottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1px;
+  .discover-top {
+    margin-top: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  .country {
-    position: relative;
-    height: 276px;
-    border-radius: 6px;
-    .pic-text {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 10px;
-      top: initial;
+    .heading{
+      span{
+        color: $primary-color;
+      }
     }
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
+  }
+  
+  .discover-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    margin-top: 36px  ;
+  
+    .country {
+      position: relative;
+      height: 276px;
+      border-radius: 6px;
+      .pic-text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        top: initial;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      &::after {
+        @include gradient-overlay;
+      }
     }
   }
 }

@@ -1,4 +1,24 @@
 $primary-color : #FB440B;
 $secondary-color : #0B3763;
+$transparent-color : #0234678d;
 $general-font: "Work Sans", sans-serif;
 $heading-font : "Redressed", cursive;
+
+// variables 
+// global 
+// local 
+
+
+// @mixin box($background: red, $height: 100px ){
+//   height: $height;
+//   width: 200px;
+//   background-color: $background;
+// }
+
+// .mixin-box-1{
+//   @include box;
+  
+// }
+// .mixin-box-2{
+//   @include box($background:green, $height: 300px);
+// }

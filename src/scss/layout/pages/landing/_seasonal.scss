@@ -1,0 +1,76 @@
+.season {
+  background-color: $secondary-color;
+  text-align: center;
+  position: relative;
+
+  .container {
+    .heading {
+      color: white;
+      padding-top: 90px;
+      padding-bottom: 112px;
+      span {
+        color: $primary-color;
+      }
+    }
+
+    .options {
+      .single-option {
+        display: flex;
+        gap: 30px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        a:focus .icon,
+        a:active .icon{
+            background-color: $primary-color;
+          }
+
+        .icon {
+          padding: 20px 46px;
+          background-color: white;
+          border-radius: 10px;
+
+          p {
+            font-family: $general-font;
+            font-size: 18px;
+            font-weight: 600;
+            color: rgba(90, 84, 84, 1);
+          }
+        }
+      }
+    }
+  }
+}
+.packages{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  .single-package{
+          height: 314px;
+          Width: 297px;
+          border-radius: 6px;
+          position: relative;
+
+          img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: inherit;
+          }
+
+          .pic-text{
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+  }
+}
+
+.packages-btn{
+  display: block;
+  width: fit-content;
+}

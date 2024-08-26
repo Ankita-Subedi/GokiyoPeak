@@ -1,0 +1,44 @@
+.departure {
+  background-color: $secondary-color;
+
+  .container {
+    flex-direction: column;
+    padding-top: 62px;
+    padding-bottom: 62px;
+
+    .heading {
+      color: white;
+      margin-bottom: 18px;
+    }
+
+    .paragraph {
+      color: white;
+      margin-bottom: 22px;
+    }
+
+    .table-wrapper {
+      background-color: #fff;
+      padding: 50px;
+      border-radius: 6px;
+
+      .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        th,
+        td {
+          text-align: left;
+
+          padding: 10px;
+        }
+        tbody {
+          tr {
+            border-bottom: 1px solid rgba(217, 217, 217, 1);
+            &:first-child {
+              border-top: 1px solid rgba(217, 217, 217, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

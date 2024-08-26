@@ -1,0 +1,26 @@
+.association{
+    flex-direction: column;
+    gap: 26px;
+    align-items: center;
+
+    .heading{
+        span{
+            color: $primary-color;
+        }
+    }
+
+    .paragraph{
+        text-align: center;
+        width: 70%;
+    }
+
+    .association-logo{
+        //not taking space between
+        //  justify-content: space-between;
+        gap: 36px;
+        img{
+            background-color: rgba(242, 241, 241, 1);
+            padding: 8px 12px;
+        }
+    }
+}

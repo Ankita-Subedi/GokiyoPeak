@@ -9,6 +9,12 @@ import Featured from "./component/Featured";
 import Country from "./component/Country";
 import Customize from "./component/Customize";
 import Everest from "./component/Everest";
+import Seasonal from "./component/Seasonal";
+import Departure from "./component/Departure";
+import Blogs from "./component/Blogs";
+import Testimonals from "./component/Testimonals"
+import Association from "./component/Association";
+import Footer from "./component/Footer";
 function App() {
   return (
     <>
@@ -22,6 +28,12 @@ function App() {
       <Country/>
       <Customize/>
       <Everest/>
+      <Seasonal/>
+      <Departure/>
+      <Blogs/>
+      <Testimonals/>
+      <Association/>
+      <Footer/>
     </>
   );
 }

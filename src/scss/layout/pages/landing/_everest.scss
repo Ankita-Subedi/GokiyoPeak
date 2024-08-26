@@ -1,7 +1,7 @@
 .everest{
     .container{
         display: flex;
-        margin-top: 8%;
+        // margin-top: 8%;
         justify-content: center;
         align-items: center;
     
@@ -25,11 +25,15 @@
                     display: flex;
                     align-items: center;
                     gap: 4px;
+
+                    p{
+                        font-size: 12px;
+                    }
                 }
             }
             .btn{
                 width: fit-content;
-                box-shadow: rgba(0, 0, 0, 0.25);
+                box-shadow: 43px 4px 41px rgba(0, 0, 0, 0.25);
 
                 i{
                     margin-left: 8px;

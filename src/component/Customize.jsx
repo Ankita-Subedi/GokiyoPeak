@@ -1,6 +1,6 @@
 const Customize = () => {
   return (
-    <div className="customize">
+    <div className="customize spacing">
       <div className="container">
         <div className="content">
           <h2 className="heading">Want to <span>Customize</span> your own trip?</h2>

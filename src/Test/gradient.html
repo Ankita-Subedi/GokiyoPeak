@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a{
+            text-decoration: none;
+            color: inherit;
+        }
+      figure {
+        height: 300px;
+        width: 200px;
+        position: relative;
+        overflow: hidden;
+      }
+      figure img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 0.5s linear;
+      }
+      figure figcaption{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        z-index: 2;
+      }
+      figure::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to top, black, rgba(255, 255, 255, 0));
+        position: absolute;
+        left: 0;
+        pointer-events: none;
+      }
+      figure:hover img{
+        transform: scale(1.2);
+      }
+</style>
+
+<body>
+    <figure>
+        <a href="">
+            <img src="./assets/images/country3.png" alt="dfc" />
+        </a>
+        <figcaption><a href="">Flower</a></figcaption>
+    </figure>
+</body>
+
+</html>

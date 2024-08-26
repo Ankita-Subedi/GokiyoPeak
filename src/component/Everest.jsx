@@ -2,7 +2,7 @@ import everest from "../assets/images/everest.png"
 
 const Everest = () => {
   return (
-    <div className="everest">
+    <div className="everest spacing">
         <div className="container">
       <div className="content">
         <h3 className="heading">
