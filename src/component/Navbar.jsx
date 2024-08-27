@@ -1,5 +1,5 @@
 import logo from '../assets/images/logo.png'
-
+import { Link } from 'react-router-dom';
 const Navbarr = () => {
   return (
     <>
@@ -31,17 +31,17 @@ const Navbarr = () => {
       </div>
       <div className="bottom-header container">
         <div className="logo">
-        <img src={logo} alt="logo" />
+        <Link to="/"> <img src={logo} alt="logo" /></Link>
         </div>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">POPULAR DESTINATION</a></li>
-          <li><a href="#">EXPEDITIONS</a></li>
-          <li><a href="#">TREKKING REGIONS</a></li>
-          <li><a href="#">ACTIVITIES</a></li>
-          <li><a href="#">TRAVELS BLOG</a></li>
-          <li><a href="#">CONTACT US</a></li>
+          <li><Link to="/"> HOME</Link></li>
+          <li><Link to="about">ABOUT US</Link></li>
+          <li><Link to="destination">POPULAR DESTINATION</Link></li>
+          <li><Link to="expeditions">EXPEDITIONS</Link></li>
+          <li><Link to="trekking">TREKKING REGIONS</Link></li>
+          <li><Link to="activites">ACTIVITIES</Link></li>
+          <li><Link to="blogs">TRAVELS BLOG</Link></li>
+          <li><Link to="contact">CONTACT US</Link></li>
         </ul>
       </div>
     </header>

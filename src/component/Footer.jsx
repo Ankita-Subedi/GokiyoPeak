@@ -143,7 +143,7 @@ const Footer = () => {
       <div className="copyright-section">
         <div className="container d-flex">
         <p>©GOKIYO PEAK TRAVELS AND TOURISM (p) ltd, 2024.</p>
-        <p>Powered by: <span>E-PRABIDHI</span> </p>
+        <p>Powered by: <span><a href="#">E-PRABIDHI</a></span> </p>
         </div>
       </div>
       </>
